@@ -16,6 +16,17 @@ body{
     
 }
 
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
 
 .main-title{
     text-align: center;

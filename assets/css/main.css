@@ -2344,7 +2344,7 @@ section {
 }
 
 .blog .posts-list .post-img {
-  max-height: 300px;
+  //max-height: 300px;
   margin: -30px -30px 15px -30px;
   overflow: hidden;
 }

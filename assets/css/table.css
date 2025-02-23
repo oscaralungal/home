@@ -18,3 +18,77 @@
         tr:hover {
             background-color: #ddd;
         }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            font-size: 36px;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+        .fixture {
+            margin: 20px 0;
+        }
+        .round {
+            padding: 20px;
+            background-color: #ecf0f1;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .round h2 {
+            margin: 0;
+            color: #3498db;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .match {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 10px;
+            border-bottom: 1px solid #ddd;
+            transition: background-color 0.3s;
+        }
+        .match:hover {
+            background-color: #f1f1f1;
+        }
+        .match:last-child {
+            border-bottom: none;
+        }
+        .team {
+            display: inline-block;
+            width: 30%;
+            font-weight: bold;
+            text-align: center;
+            font-size: 18px;
+            color: #2c3e50;
+            padding: 5px;
+        }
+        .team-time {
+            width: 10%;
+            text-align: center;
+            font-style: italic;
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+        .score {
+            font-size: 20px;
+            font-weight: bold;
+            color: #e74c3c;
+            padding: 10px;
+        }
+        
+        .volleyball-icon {
+            font-size: 24px;
+            color: #f39c12;
+            margin-right: 10px;
+        }

@@ -2876,3 +2876,13 @@ section {
   color: var(--contrast-color);
   background-color: rgba(var(--primary-color-rgb), 0.8);
 }
+@media (max-width: 1199px) {
+  .navmenu .dropdown ul {
+    display: none;
+    padding-left: 20px;
+  }
+
+  .navmenu .dropdown-active {
+    display: block !important;
+  }
+}
